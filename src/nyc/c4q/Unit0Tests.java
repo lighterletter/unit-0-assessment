@@ -178,8 +178,8 @@ public class Unit0Tests {
         HashMap<String,Person> people = new HashMap<String, Person>();
 
 
-        people.put("Grace hopper",
-                   declareAndRetu);
+        people.put(gracehopper().getName(),
+                   gracehopper());
 
         people.put(declareAndReturnPersonNamedAlanTuringFromLondon().getName(),
                    declareAndReturnPersonNamedAlanTuringFromLondon());
