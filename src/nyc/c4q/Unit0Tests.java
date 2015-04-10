@@ -149,6 +149,11 @@ public class Unit0Tests {
 
         return alanTuring;
     }
+    public static  Person gracehopper(){
+        Person graceHopper = new Person("Grace Hopper");
+        graceHopper.setCity("Arlington");
+        return  graceHopper;
+    }
 
     public static boolean isFromLondon(Person person) {
 
@@ -174,7 +179,7 @@ public class Unit0Tests {
 
 
         people.put("Grace hopper",
-                   declareAndReturnPersonNamedAda());
+                   declareAndRetu);
 
         people.put(declareAndReturnPersonNamedAlanTuringFromLondon().getName(),
                    declareAndReturnPersonNamedAlanTuringFromLondon());
